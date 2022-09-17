@@ -1,0 +1,51 @@
+/*reset bbrowser*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* https://www.pexels.com/es-es/foto/personas-con-mochilas-1454360/ */
+
+body {
+  background-color: rgb(108, 66, 3);
+}
+
+header {
+  background-image: linear-gradient(
+      to right,
+      rgba(20, 4, 4, 0.345),
+      rgb(246, 156, 20)
+    ),
+    url("https://images.pexels.com/photos/1454360/pexels-photo-1454360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+form {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  margin: auto;
+  padding: 40px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+input {
+  padding: 5´x;
+  margin: auto;
+  height: 40px;
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 25px;
+  cursor: pointer;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
